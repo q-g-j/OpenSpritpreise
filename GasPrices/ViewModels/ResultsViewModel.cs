@@ -35,7 +35,7 @@ public partial class ResultsViewModel : ViewModelBase
             .Navigate<StationListViewModel,
                 CustomCompositePageTransition<CustomCrossFadePageTransition, SlideLeftPageTransition>>();
 
-        if (OperatingSystem.IsAndroid())
+        if (OperatingSystem.IsAndroid() || OperatingSystem.IsIOS())
         {
             BackButtonIsVisible = false;
         }

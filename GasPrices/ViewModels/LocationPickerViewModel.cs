@@ -25,7 +25,7 @@ public partial class LocationPickerViewModel : ViewModelBase
 
         ApplyButtonIsEnabled = _appStateStore.CoordsFromMapClient != null;
 
-        if (OperatingSystem.IsAndroid())
+        if (OperatingSystem.IsAndroid() || OperatingSystem.IsIOS())
         {
             BackButtonIsVisible = false;
         }

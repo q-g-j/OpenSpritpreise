@@ -50,7 +50,7 @@ public partial class StationDetailsViewModel : ViewModelBase
         {
             JsUrlHandler.OpenInNewTab(uri.ToString());
         }
-        else if (OperatingSystem.IsAndroid())
+        else if (OperatingSystem.IsAndroid() || OperatingSystem.IsIOS())
         {
             await Browser.OpenAsync(uri, BrowserLaunchMode.SystemPreferred);
         }

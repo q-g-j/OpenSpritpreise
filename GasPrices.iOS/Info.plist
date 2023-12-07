@@ -42,6 +42,7 @@
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<false/><key>NSLocationWhenInUseUsageDescription</key>
+	<string>Get current position from device geolocation service.</string>
 </dict>
 </plist>

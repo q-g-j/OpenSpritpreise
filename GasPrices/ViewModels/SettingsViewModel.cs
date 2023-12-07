@@ -37,7 +37,7 @@ public partial class SettingsViewModel : ViewModelBase
         _settingsWriter = settingsWriter;
         _gasPricesClient = gasPricesClient;
 
-        if (OperatingSystem.IsAndroid())
+        if (OperatingSystem.IsAndroid() || OperatingSystem.IsIOS())
         {
             CancelButtonIsVisible = false;
         }

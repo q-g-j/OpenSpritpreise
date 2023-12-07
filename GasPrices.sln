@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsHandling", "Setting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPrices.Browser", "GasPrices.Browser\GasPrices.Browser.csproj", "{70AAC1FD-FCB7-4FF1-9423-2224BAEEE842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPrices.iOS", "GasPrices.iOS\GasPrices.iOS.csproj", "{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -136,6 +138,18 @@ Global
 		{70AAC1FD-FCB7-4FF1-9423-2224BAEEE842}.Release|ARM64.Build.0 = Release|Any CPU
 		{70AAC1FD-FCB7-4FF1-9423-2224BAEEE842}.Release|x64.ActiveCfg = Release|Any CPU
 		{70AAC1FD-FCB7-4FF1-9423-2224BAEEE842}.Release|x64.Build.0 = Release|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|ARM64.Build.0 = Debug|ARM64
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|ARM64.ActiveCfg = Release|ARM64
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|ARM64.Build.0 = Release|ARM64
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{710A2EAE-235D-46F1-BB8E-A5701FD6B9C7}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

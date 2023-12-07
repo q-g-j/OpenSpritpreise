@@ -41,7 +41,7 @@ public partial class AddressSelectionViewModel : ViewModelBase
         _settingsReader = settingsReader;
         _settingsWriter = settingsWriter;
 
-        if (OperatingSystem.IsAndroid())
+        if (OperatingSystem.IsAndroid() || OperatingSystem.IsIOS())
         {
             GeolocationButtonIsVisible = true;
             LocationPickerButtonGridColumn = 1;
